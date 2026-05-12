@@ -1,0 +1,1029 @@
+```html
+<!-- ================================================= -->
+<!-- PACK GLOBAL UNIQUE — BABY CASH COIN -->
+<!-- index.html VERSION MODIFIÉE -->
+<!-- ================================================= -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BABY CASH COIN</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- BACKGROUND -->
+
+<div class="bg-animation">
+
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+<!-- HEADER -->
+
+<header class="header">
+
+<div class="header-left">
+
+<h1>
+Bonjour 👋
+</h1>
+
+<div class="top-level">
+
+<!-- MODIFICATION BADGE -->
+
+<div class="badge"
+id="badgeBtn">
+
+🥉 Bronze
+
+</div>
+
+<div class="xp-box">
+
+<div class="xp-text">
+
+<span>Niveau 1</span>
+
+<span>1%</span>
+
+</div>
+
+<div class="xp-bar">
+
+<div class="xp-fill"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="header-right">
+
+<button class="notif-btn"
+id="notifBtn">
+
+<i class="fa-regular fa-bell"></i>
+
+</button>
+
+<label class="theme-switch">
+
+<input type="checkbox"
+id="themeToggle">
+
+<span class="slider"></span>
+
+</label>
+
+<div class="bcc-logo">
+
+<div class="bcc-inner">
+
+BCC
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- ================================================= -->
+<!-- POPUP NIVEAUX -->
+<!-- ================================================= -->
+
+<div class="level-popup hidden"
+id="levelPopup">
+
+<div class="level-box">
+
+<h2>
+🏆 Niveaux BCC
+</h2>
+
+<div class="level-item bronze-level">
+
+🥉 N1 à N15 → Bronze
+
+</div>
+
+<div class="level-item silver-level">
+
+🥈 N16 à N30 → Silver
+
+</div>
+
+<div class="level-item gold-level">
+
+🥇 N31 à N45 → Gold
+
+</div>
+
+<div class="level-item diamond-level">
+
+💎 N50+ → Diamond
+
+</div>
+
+<button id="closeLevelPopup">
+
+Fermer
+
+</button>
+
+</div>
+
+</div>
+
+<!-- ================================================= -->
+<!-- ACCUEIL -->
+<!-- ================================================= -->
+
+<section id="homeSection"
+class="page active-page">
+
+<!-- BCC FUTURE -->
+
+<div class="future-box">
+
+<div class="future-title">
+
+❝ BCC FUTURE ❞
+
+</div>
+
+<div class="future-scroll">
+
+<div class="future-track">
+
+<span>Bienvenue dans notre univers</span>
+
+<span>Votre avenir numérique commence ici</span>
+
+<span>Gagnez des récompenses BCC</span>
+
+<span>Le futur des récompenses numériques</span>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- SOLDE -->
+
+<div class="balance-card">
+
+<button class="eye-btn"
+id="toggleBalance">
+
+<i class="fa-regular fa-eye"></i>
+
+</button>
+
+<div class="bridge">
+
+<div class="bridge-line"></div>
+
+<div class="tower tower1"></div>
+
+<div class="tower tower2"></div>
+
+</div>
+
+<p class="balance-title">
+
+Solde principal
+
+</p>
+
+<div class="balance-main">
+
+<h2 id="balanceText">
+
+0
+
+</h2>
+
+<span>BCC</span>
+
+</div>
+
+<div class="cfa-box">
+
+<p>
+Estimation en CFA
+</p>
+
+<div class="cfa-live">
+
+<h3 id="cfaText">
+
+≈ 0 CFA
+
+</h3>
+
+<div class="live-dot"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ACTIONS -->
+
+<div class="actions">
+
+<!-- ENVOYER -->
+
+<button class="action-btn"
+id="sendBtn">
+
+<div class="action-circle">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+</div>
+
+<span>Envoyer</span>
+
+</button>
+
+<!-- RECEVOIR -->
+
+<button class="action-btn"
+id="receiveBtn">
+
+<div class="action-circle">
+
+<i class="fa-solid fa-download"></i>
+
+</div>
+
+<span>Recevoir</span>
+
+</button>
+
+<!-- SCANNER -->
+
+<button class="action-btn"
+id="scanBtn">
+
+<div class="action-circle">
+
+<i class="fa-solid fa-qrcode"></i>
+
+</div>
+
+<span>Scanner</span>
+
+</button>
+
+<!-- CONVERTIR -->
+
+<button class="action-btn"
+id="convertBtn">
+
+<div class="action-circle">
+
+<i class="fa-solid fa-repeat"></i>
+
+</div>
+
+<span>Convertir</span>
+
+</button>
+
+</div>
+
+<!-- HISTORIQUE -->
+
+<div class="history-box">
+
+<div class="history-icon">
+
+🕓
+
+</div>
+
+<h3>
+Aucun historique
+</h3>
+
+<p>
+Les transactions apparaîtront ici
+</p>
+
+<div class="bottom-buttons">
+
+<button class="contact-btn"
+id="contactBtn">
+
+Nous contacter
+
+</button>
+
+<button class="logout-btn">
+
+Déconnecter
+
+</button>
+
+</div>
+
+<!-- CONTACT -->
+
+<div class="contact-info hidden"
+id="contactInfo">
+
+<p class="contact-warning">
+
+⚠ Avant de cliquer et nous laisser un message mettez votre ID BCC d'abord
+
+</p>
+
+<p>
+
+BCCciservice@gmail.com
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- ENVOYER -->
+<!-- ================================================= -->
+
+<div class="service-modal hidden"
+id="sendModal">
+
+<div class="service-box">
+
+<h2>
+📤 Envoyer BCC
+</h2>
+
+<input type="text"
+placeholder="ID BCC">
+
+<input type="number"
+placeholder="Montant"
+id="sendAmount">
+
+<p>
+Frais BCC 1%
+</p>
+
+<h3 id="sendResult">
+
+Montant reçu = 0 BCC
+
+</h3>
+
+<button class="close-service"
+data-close="sendModal">
+
+Envoyer
+
+</button>
+
+</div>
+
+</div>
+
+<!-- ================================================= -->
+<!-- RECEVOIR -->
+<!-- ================================================= -->
+
+<div class="service-modal hidden"
+id="receiveModal">
+
+<div class="service-box">
+
+<h2>
+📥 Recevoir BCC
+</h2>
+
+<div class="receive-id-box">
+
+ID BCC DU RECEVEUR
+
+</div>
+
+<p>
+Nom du client : Samuel Guei
+</p>
+
+<p>
+ID BCC : BCC225588
+</p>
+
+<input type="number"
+placeholder="Montant à envoyer"
+id="receiveAmount">
+
+<p>
+Frais BCC 1%
+</p>
+
+<h3 id="receiveResult">
+
+Montant reçu = 0 BCC
+
+</h3>
+
+<button class="close-service"
+data-close="receiveModal">
+
+Fermer
+
+</button>
+
+</div>
+
+</div>
+
+<!-- ================================================= -->
+<!-- SCANNER -->
+<!-- ================================================= -->
+
+<div class="service-modal hidden"
+id="scanModal">
+
+<div class="service-box">
+
+<h2>
+📷 Scanner ID BCC
+</h2>
+
+<div class="scan-animation"></div>
+
+<p>
+Autorisation caméra demandée...
+
+</p>
+
+<button class="close-service"
+data-close="scanModal">
+
+Fermer
+
+</button>
+
+</div>
+
+</div>
+
+<!-- ================================================= -->
+<!-- CONVERTIR -->
+<!-- ================================================= -->
+
+<div class="service-modal hidden"
+id="convertModal">
+
+<div class="service-box">
+
+<h2>
+💱 Convertir BCC
+</h2>
+
+<div class="payment-grid">
+
+<button class="pay-btn">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Wave_logo.svg">
+
+Wave
+
+</button>
+
+<button class="pay-btn">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Orange_logo.svg">
+
+Orange Money
+
+</button>
+
+<button class="pay-btn">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/New-mtn-logo.jpg">
+
+MTN Money
+
+</button>
+
+<button class="pay-btn">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Moov_Africa_logo.png">
+
+Moov Money
+
+</button>
+
+</div>
+
+<input type="text"
+placeholder="Votre numéro inscrit">
+
+<button class="close-service"
+data-close="convertModal">
+
+Convertir
+
+</button>
+
+</div>
+
+</div>
+<!-- ================================================= -->
+<!-- RECOMPENSE -->
+<!-- ================================================= -->
+
+<section id="rewardSection" class="page">
+
+<div class="reward-header">
+
+<h2>
+
+💎 Récompenses BCC
+
+</h2>
+
+<div class="reward-balance">
+
+0 RÉCOMPENSE
+
+</div>
+
+<p>
+
+Bonus & gains numériques
+
+</p>
+
+<div class="reward-progress">
+
+<div class="reward-fill"></div>
+
+</div>
+
+</div>
+
+<div class="reward-card" id="wheelCard">
+
+<div class="reward-icon">
+
+🎡
+
+</div>
+
+<div>
+
+<h3>
+Roue de la chance
+</h3>
+
+<p>
+Tournez et gagnez des BCC
+</p>
+
+</div>
+
+</div>
+
+<div class="wheel-box">
+
+<div class="wheel-pointer"></div>
+
+<div class="wheel" id="wheel">
+
+<div class="wheel-center">
+
+BCC
+
+</div>
+
+</div>
+
+<button id="spinBtn">
+
+TOURNER
+
+</button>
+
+</div>
+
+<div class="reward-card popup-btn">
+
+<div class="reward-icon">
+
+🎁
+
+</div>
+
+<div>
+
+<h3>
+Coffres cadeaux
+</h3>
+
+<p>
+Récompenses premium
+</p>
+
+</div>
+
+</div>
+
+<div class="reward-card popup-btn">
+
+<div class="reward-icon">
+
+⚡
+
+</div>
+
+<div>
+
+<h3>
+Missions quotidiennes
+</h3>
+
+<p>
+Effectuez des tâches
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- MARCHÉ BCC -->
+<!-- ================================================= -->
+
+<section id="marketSection" class="page">
+
+<!-- PUB -->
+
+<div class="market-box">
+
+<h2>
+📢 Publicité & Partenaires
+</h2>
+
+<p>
+Gagne des BCC en regardant des pubs
+</p>
+
+<div class="partner-grid">
+
+<a href="https://admob.google.com"
+target="_blank"
+class="partner-card">
+
+<div class="partner-logo google">
+G
+</div>
+
+<span>Google Admob</span>
+
+</a>
+
+<a href="https://unity.com"
+target="_blank"
+class="partner-card">
+
+<div class="partner-logo unity">
+U
+</div>
+
+<span>Unity Ads</span>
+
+</a>
+
+<a href="https://www.applovin.com"
+target="_blank"
+class="partner-card">
+
+<div class="partner-logo applovin">
+A
+</div>
+
+<span>AppLovin</span>
+
+</a>
+
+</div>
+
+</div>
+
+<!-- CPA -->
+
+<div class="market-box">
+
+<h2>
+💰 Réseau CPA
+</h2>
+
+<p>
+Gagne des BCC en réalisant des actions
+</p>
+
+<button class="market-btn popup-btn">
+
+CPA Grip
+
+</button>
+
+<button class="market-btn popup-btn">
+
+OGAds
+
+</button>
+
+<button class="market-btn popup-btn">
+
+AdGate Media
+
+</button>
+
+</div>
+
+<!-- SONDAGES -->
+
+<div class="market-box">
+
+<h2>
+📋 Sondages
+</h2>
+
+<p>
+Réponds aux questions pour gagner des BCC
+</p>
+
+<button class="market-btn popup-btn">
+
+PollFish
+
+</button>
+
+<button class="market-btn popup-btn">
+
+BitLabs
+
+</button>
+
+</div>
+
+<!-- BOOST -->
+
+<div class="market-box">
+
+<h2>
+🚀 Parrainage & Boost
+</h2>
+
+<button class="market-btn popup-btn">
+
+Télécharger des apps
+
+</button>
+
+<button class="market-btn popup-btn">
+
+Jeux mobiles
+
+</button>
+
+<button class="market-btn popup-btn">
+
+Outils numériques
+
+</button>
+
+</div>
+
+<!-- RESEAUX -->
+
+<div class="market-box">
+
+<h2>
+🌍 Missions Réseaux Sociaux
+</h2>
+
+<div class="social-grid">
+
+<button class="social-btn popup-btn">
+Liker
+</button>
+
+<button class="social-btn popup-btn">
+Partager
+</button>
+
+<button class="social-btn popup-btn">
+Commenter
+</button>
+
+<button class="social-btn popup-btn">
+Suivre
+</button>
+
+<button class="social-btn popup-btn">
+Inviter ami
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- PROFIL -->
+<!-- ================================================= -->
+
+<section id="profileSection" class="page">
+
+<div class="profile-card">
+
+<div class="profile-avatar">
+
+<i class="fa-solid fa-plus"></i>
+
+</div>
+
+<h2>
+Samuel Guei
+</h2>
+
+<input type="text"
+placeholder="Nom complet">
+
+<input type="text"
+placeholder="Pseudo">
+
+<input type="text"
+placeholder="Téléphone">
+
+<input type="email"
+placeholder="Email">
+
+<button class="verify-btn popup-btn">
+
+Vérifier mon compte
+
+</button>
+
+<button class="save-btn popup-btn">
+
+Enregistrer
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- NAVIGATION -->
+<!-- ================================================= -->
+
+<nav class="bottom-nav">
+
+<button class="nav-item active-nav"
+id="homeBtn">
+
+<i class="fa-solid fa-house"></i>
+
+<span>Accueil</span>
+
+</button>
+
+<button class="nav-item"
+id="rewardBtn">
+
+<i class="fa-solid fa-gift"></i>
+
+<span>Récompense</span>
+
+</button>
+
+<button class="center-btn"
+id="centerBtn">
+
+<div class="center-inner">
+
+<div class="center-scroll">
+
+<span>
+
+Bienvenue dans notre univers
+
+</span>
+
+</div>
+
+</div>
+
+</button>
+
+<button class="nav-item"
+id="marketBtn">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<span>Marché</span>
+
+</button>
+
+<button class="nav-item"
+id="profileBtn">
+
+<i class="fa-regular fa-user"></i>
+
+<span>Profil</span>
+
+</button>
+
+</nav>
+
+<!-- ================================================= -->
+<!-- POPUP -->
+<!-- ================================================= -->
+
+<div class="popup"
+id="popup">
+
+Service disponible bientôt
+
+</div>
+
+<!-- ================================================= -->
+<!-- CITATION -->
+<!-- ================================================= -->
+
+<div class="quote-popup hidden"
+id="quotePopup">
+
+<div class="quote-box">
+
+<div class="quote-logo">
+
+BCC
+
+</div>
+
+<h3>
+Bienvenue dans notre univers
+</h3>
+
+<p id="quoteText">
+
+Le succès appartient à ceux qui n'abandonnent jamais.
+
+</p>
+
+<button id="closeQuote">
+
+Fermer
+
+</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
